@@ -1,0 +1,57 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+background-image: url("OpenStackimg.png");
+background-repeat: no-repeat;
+font-size: 24px;
+background-size: contain;
+
+}
+
+.login-header a{
+  color:white;
+  text-decoration: none;
+}
+.login-header{
+  display: flex;
+  justify-content: space-around;
+  /*margin-left: 90px;
+  margin-right: 90px;*/
+  font-weight: bold;
+
+  background:gray;
+
+
+}
+
+.main-head-wrapper{
+
+margin: 0px;
+padding: 0;
+position: fixed;
+/*border: 2px solid black;*/
+display: flex;
+justify-content: space-around;
+width: 100%;
+padding: 30px;
+}
+
+.main-head-wrapper a{
+  color:black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.body-content{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding-top: 100px;
+  align-items: center;
+  color:#333342;
+
+}
